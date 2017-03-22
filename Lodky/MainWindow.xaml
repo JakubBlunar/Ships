@@ -1,0 +1,38 @@
+﻿<Window x:Class="Lodky.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="785.705" Closing="Window_Closing" Closed="Window_Closed">
+    <Grid>
+
+        <Button x:Name="BNewGame" Content="New Game" Margin="257,337,0,0" VerticalAlignment="Top"
+                Click="button_Click_NewGame" HorizontalAlignment="Left" Width="75" />
+        <ListBox x:Name="LbPlayers" Margin="203,51,0,0" Height="281" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Width="180" />
+        <TextBlock x:Name="TextBlock" HorizontalAlignment="Left" Margin="10,8,0,0" TextWrapping="Wrap"
+                   Text="Logged as :" VerticalAlignment="Top" />
+        <TextBlock x:Name="TextActiveGames" HorizontalAlignment="Left" Margin="10,29,0,0" TextWrapping="Wrap"
+                   Text="ActiveGames" VerticalAlignment="Top" />
+        <ListBox x:Name="LbActiveGames" HorizontalAlignment="Left" Margin="10,51,0,0" Width="180" Height="281"
+                 VerticalAlignment="Top" />
+        <Button x:Name="BShowGame" Content="Show" HorizontalAlignment="Left" Margin="54,337,0,0" Width="75" Height="19"
+                VerticalAlignment="Top" Click="bShowGame_Click" />
+        <Button x:Name="BHistory" Content="Show Game History" HorizontalAlignment="Left" Margin="632,337,0,0"
+                Width="115" Click="bHistory_Click" Height="19" VerticalAlignment="Top" />
+        <ListBox x:Name="LbHistory" Height="281" Margin="596,51,10.154,0" VerticalAlignment="Top" />
+        <TextBlock x:Name="TextBlock1" HorizontalAlignment="Left" Margin="596,29,0,0" TextWrapping="Wrap"
+                   Text="History of games" VerticalAlignment="Top" />
+        <ListBox x:Name="LbSaves" Height="281" Margin="400,51,0,0" VerticalAlignment="Top" HorizontalAlignment="Left"
+                 Width="172" />
+        <TextBlock x:Name="TextBlock2" HorizontalAlignment="Left" Margin="400,29,0,0" TextWrapping="Wrap"
+                   Text="Saved games" VerticalAlignment="Top" />
+        <TextBlock x:Name="TextBlock3" HorizontalAlignment="Left" Margin="203,29,0,0" TextWrapping="Wrap"
+                   Text="Players" VerticalAlignment="Top" />
+        <Button x:Name="BLoad" Content="Load" HorizontalAlignment="Left" Margin="456,337,0,0" VerticalAlignment="Top"
+                Width="75" Click="BLoad_Click" />
+    </Grid>
+
+
+</Window>

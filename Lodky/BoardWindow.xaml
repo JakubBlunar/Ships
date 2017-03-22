@@ -1,0 +1,27 @@
+﻿<Window x:Class="Lodky.BoardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="Board" Height="500" Width="723.538" ResizeMode="NoResize" Closing="Window_Closing">
+
+    <Grid MouseLeftButtonUp="Grid_MouseLeftButtonUp">
+        <Canvas Name="Canvas1" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left"
+                Width="300
+                " Margin="10,10,0,0" Background="#FFFFFAD5" />
+
+        <Canvas Name="Canvas2" Height="300" VerticalAlignment="Top" HorizontalAlignment="Left"
+                Width="300
+                " Margin="365,10,0,0" Background="#FFFFFAD5" />
+        <TextBlock x:Name="Status" HorizontalAlignment="Left" Margin="10,342,0,0" TextWrapping="Wrap" Text="Status"
+                   VerticalAlignment="Top" />
+        <TextBlock x:Name="Player2Lives" HorizontalAlignment="Left" Height="23" Margin="10,363,0,0" TextWrapping="Wrap"
+                   Text="TextBox" VerticalAlignment="Top" Width="120" />
+        <TextBlock x:Name="Player1Lives" HorizontalAlignment="Left" Height="23" Margin="10,391,0,0" TextWrapping="Wrap"
+                   Text="TextBox" VerticalAlignment="Top" Width="120" />
+        <Button x:Name="BSave" Content="Save" Margin="0,0,53.154,53.692" HorizontalAlignment="Right" Width="75"
+                Height="19" VerticalAlignment="Bottom" Click="BSave_Click" />
+    </Grid>
+
+</Window>

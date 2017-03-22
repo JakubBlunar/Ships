@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lodky", "Lodky\Lodky.csproj", "{7AA16EEC-9323-44C3-AF9C-620E11036162}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerService", "ServerService\ServerService.csproj", "{E8720D63-196D-4783-BFB3-C46081535199}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerInterfaces", "ServerInterfaces\ServerInterfaces.csproj", "{647BEAC9-7EA7-48D9-BDD0-1787F191B2AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7AA16EEC-9323-44C3-AF9C-620E11036162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AA16EEC-9323-44C3-AF9C-620E11036162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AA16EEC-9323-44C3-AF9C-620E11036162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AA16EEC-9323-44C3-AF9C-620E11036162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8720D63-196D-4783-BFB3-C46081535199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8720D63-196D-4783-BFB3-C46081535199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8720D63-196D-4783-BFB3-C46081535199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8720D63-196D-4783-BFB3-C46081535199}.Release|Any CPU.Build.0 = Release|Any CPU
+		{647BEAC9-7EA7-48D9-BDD0-1787F191B2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647BEAC9-7EA7-48D9-BDD0-1787F191B2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647BEAC9-7EA7-48D9-BDD0-1787F191B2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647BEAC9-7EA7-48D9-BDD0-1787F191B2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
